@@ -3,7 +3,7 @@
 ## Abstract
 Synthetic Control methods have recently gained considerable attention in applications with only one treated unit.  Their popularity is partly based on the key insight that we can predict good synthetic counterfactuals for our treated unit. However, this insight of predicting counterfactuals is generalisable to microeconometric settings where we often observe many treated units. We propose the Correlated Synthetic Controls (CSC) estimator for such situations: intuitively, it creates synthetic controls that are correlated across individuals with similar observables. When treatment assignment is correlated with unobservables, we show that the CSC estimator has more desirable theoretical properties than the difference-in-difference estimator. We also utilise CSC in practice to obtain heterogeneous treatment effects in the well-known Mariel Boatlift example, leveraging additional information from the PSID.
 
-## Contents of the folder
+## Contents of the main branch
 This is the GitHub repository for my MPhil thesis at the University of Oxford. It contains the coding used for the simulation in the paper (Section 5) and the Empirical Application (Section 6).
 
 The main branch contains three folders:
