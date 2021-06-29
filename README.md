@@ -13,3 +13,6 @@ The main branch contains three folders:
 
 ## Future work
 In the future, we hope to turn the Correlated Synthetic Controls into an R package
+
+## Disclaimer
+Huge thanks to @fditraglia and @maxkasy for excellent supervision! All errors are my own and please contact me when you spot them.
