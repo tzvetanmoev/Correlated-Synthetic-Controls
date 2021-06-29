@@ -1,3 +1,5 @@
+### CREATES EXTRA TABLES FOR APPENDIX A.9
+
 ################################################################################
 colSd <- function (x, na.rm=FALSE) apply(X=x, MARGIN=2, FUN=sd)
 std <- function(x) sd(x)/sqrt(length(x))
