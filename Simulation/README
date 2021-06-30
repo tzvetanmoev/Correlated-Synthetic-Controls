@@ -1,0 +1,10 @@
+As described in the paper, the simulation proceeds in 3 stages:
+1) Simulate the matrix with outcomes \Theta
+2) Code the four different estimator
+3) Compare their performance
+
+Note that the process is fully automated by the creation of the following functions:
+1) simulate_data_int_random_effects - simulates the data
+2) run_did - runs feasible difference-in-differnece: it is also used for running infeasible did after some manipulation of matrix \Theta
+3) run_pscm - codes the Penalised Synthetic Control of L'Hour and Abadie (2021)
+4) run_rwscm - runs Correlated Synthetic Controls: the original name of the estimator before CSC was Random Weights Synthetic Control Method (RWSCM)
